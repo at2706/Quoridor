@@ -1,0 +1,7 @@
+package edu.nyu.at2706.quoridor;
+
+public class Utility {
+    public static float lerp(float v0, float v1, float t) {
+        return (1.0f - t)*v0 + t*v1;
+    }
+}

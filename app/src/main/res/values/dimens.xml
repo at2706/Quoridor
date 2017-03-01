@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="btnOffset">20dp</dimen>
+    <dimen name="toolbarHeight">84dp</dimen>
+    <dimen name="cellSpacing">10dp</dimen>
+    <dimen name="gridMargin">20dp</dimen>
+</resources>

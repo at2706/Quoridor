@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    tools:context=".ActivityMainMenu">
+
+    <RelativeLayout
+        android:id="@+id/gameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/toolbarHeight">
+            <edu.nyu.at2706.quoridor.GameView
+                android:id="@+id/gameView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/gridMargin"
+                android:layout_marginRight="@dimen/gridMargin"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/toolbarHeight">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/action"
+                android:textColor="@color/btnText"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/actionLabel"
+                android:text="@string/none"
+                android:textColor="@color/btnText"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbarHeight"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/horizontalBtn"
+                android:background="@drawable/horizontal"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/verticalBtn"
+                android:background="@drawable/vertical"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doneBtn"
+                android:background="@drawable/check"
+                android:onClick="onClickDone"
+                tools:context=""
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

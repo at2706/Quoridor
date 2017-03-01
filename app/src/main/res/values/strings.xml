@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quoridor</string>
+    <string name="app_id">725041383519</string>
+    <string name="newMatch">New Match</string>
+    <string name="check">Check Matches</string>
+    <string name="help">Help</string>
+    <string name="signin_other_error">There was an issue with sign in.  Please try again later.</string>
+
+    <string name="objective"><p><b>Objective:</b>\nReach the other side of the board!</p>
+
+    \n<p><h2>Instructions:</h2>\nEach turn you can move horizontally or vertically by one Square. Or you can construct walls anywhere on the grid to block your opponent.</p></string>
+
+    <string name="status_multiplayer_error_not_trusted_tester">Anyone you invite must be a trusted tester</string>
+    <string name="match_error_already_rematched">This rematch has already been started!</string>
+    <string name="client_reconnect_required">Games client reconnect required</string>
+    <string name="network_error_operation_failed">Network error: Operation failed</string>
+    <string name="internal_error">Internal error</string>
+    <string name="unexpected_status">Unexpected status</string>
+    <string name="match_error_inactive_match">This match is inactive.</string>
+    <string name='match_error_locally_modified'>This match has locally-modified data.  This operation cannot be performed until the match is sent to the server.</string>
+
+    <string name="action">Action: </string>
+    <string name="none">None</string>
+    <string name="move">Move</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+</resources>

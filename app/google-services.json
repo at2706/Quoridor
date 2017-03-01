@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "725041383519",
+    "project_id": "quoridor-9771412"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725041383519:android:f8d27a4688e79e94",
+        "android_client_info": {
+          "package_name": "edu.nyu.at2706.quoridor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725041383519-3p9rro1bin2j2eb2arapf7ub9dni5omf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.nyu.at2706.quoridor",
+            "certificate_hash": "4D1A24FAABBDBEE3D60316D5E286000C097DB9C9"
+          }
+        },
+        {
+          "client_id": "725041383519-r6bdq9sb7s7ohqlbv8em1aisaqv5dln7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaIJ9wJqEXpilIFX832R0iv47WX_8F4eg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
